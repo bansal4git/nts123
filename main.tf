@@ -8,3 +8,10 @@ tags = {
 
 }
 }
+resource "aws vpc" test2 {
+cidr_block = "192.168.2.1/16"
+tags = {
+"Name" = "VPC2"
+
+}
+}
